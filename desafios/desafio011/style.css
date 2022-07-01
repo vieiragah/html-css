@@ -40,7 +40,8 @@ section {
     font-family: var(--fonte-destaque);
     font-size: 1.6em;
     background-image: url(imagens/background001.jpg);
-    background-position: 100%;
+    background-position: relative;
+    background-size: 100% 100%;
 }
 
 
@@ -48,6 +49,8 @@ section {
     font-family: var(--fonte-destaque);
     font-size: 1.6em;
     background-image: url(imagens/background002.jpg);
+    background-position: relative;
+    background-size: 100% 100%;
 }
 
 .fundo {
