@@ -46,7 +46,7 @@ section  {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte2);
-    font-size: 4vw;
+    font-size: 3.5vw;
 }
 
 .normal {
@@ -62,6 +62,13 @@ section.imagem > p {
     display: inline-block;
     padding: 10px;
 }
+#img1 {
+    background-image: url(imagens/background001.jpg);
+}
+#img2 {
+    background-image: url(imagens/background002.jpg);
+}
+
 footer {
     background-color: black;
     color: white;
