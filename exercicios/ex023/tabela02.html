@@ -18,23 +18,33 @@
             padding: 8px;
         }
         thead, tfoot {
-            background-color: gray;
+            background-color: rgb(85, 85, 85);
             color: white;
         }
         td.num {
             text-align: right;
         }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgb(157, 157, 157);
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
     </style>
 </head>
 <body>
-    <h1>Criando tabela grande </h1>
+    <h1>Uso de tabelas grandes </h1>
     
     <table>
+        <caption>População das Unidas Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
-                <th>porcentagem</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+                <th scope="col" style="width: 100px;">porcentagem</th>
             </tr>
         </thead>
         <tbody>
@@ -172,7 +182,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td><strong>111.111.111</strong></td>
                 <td><strong>100%</strong></td>
             </tr>
